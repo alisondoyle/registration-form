@@ -11,57 +11,69 @@
   href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-<div class="grid island max-length">
-<div class="unit">
-  <h1 class="pad-t-2">Want to go to Mars?</h1>
-</div>
-<div class="unit">
-  <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-</div>
-<div class="unit">
-  <p>Personal details</p>
-</div>
 
-<form class="push-0 unit" method="POST" action=""https://formspree.io/your@email.com">
-  <div class="grid">
+  <div class="grid island max-length">
 
-    <div class="unit xs-1 push">
-      <label for="name">Name</label>
-      <input id="name" name="name" required>
-    </div>
-    <div class="unit xs-1 push">
-      <label for="age">Age</label>
-      <input id="age" name="age" required>
+    <div class="unit">
+      <h1 class="pad-t-2">Want to go to Mars?</h1>
     </div>
 
-    <div class="unit xs-1 push">
-      <label for="email">Email</label>
-      <input id="email" type="email" placeholder="me@me.com" name="email" required>
+    <div class="unit">
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
 
-    <div class="unit xs-1 push">
-      <label for="subject">Physical fitness</label>
-      <select id="subject" name="_subject">
-<option>Super-human</option>
-<option>Fit as a fiddle</option>
-<option>Not terribly strong</option>
-<option>A little couch-potato-y</option>
-</select>
-</div>
+    <div class="unit">
+      <p>Personal details</p>
+    </div>
 
-<div class="unit xs-1">
-  <p>Mission statement</p>
-</div>
+    <form class="push-0 unit" method="POST" action="https://formspree.io/your@email.com">
+      <div class="grid">
 
-<div class="unit xs-1 push">
-  <label for="details" name="message" required></textarea>
+        <div class="unit xs-1 push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="unit xs-1 push">
+          <label for="age">Age</label>
+          <input id="age" name="age" required>
+        </div>
+
+        <div class="unit xs-1 push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+
+        <div class="unit xs-1 push">
+          <label for="subject">Physical fitness</label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div class="unit xs-1 push">
+          <label for="details">Address</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+
+        <div class="unit xs-1">
+          <p>Mission statement</p>
+        </div>
+
+        <div class="unit xs-1 push">
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+
+        <div class="unit xs-1">
+          <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+        </div>
+      </div>
+    </form>
   </div>
-  <div class="unit xs-1">
-    <button class="btn btn-light mega" type="submit">Register for the trip!</button>
-  </div>
-</div>
-</form>
-</div>
 
 </body>
 </html>
