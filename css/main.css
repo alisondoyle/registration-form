@@ -1,24 +1,25 @@
-
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 html {
   font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 .contact {
   background-color: #f2f2f2;
 }
+
  .body {
    color: #fff;
    background-color: #000;
  }
+
+ .name {
+   padding-right: .5rem;
+ }
+
+
+  .email {
+    padding-left: .5rem;
+  }
