@@ -10,16 +10,23 @@ h1 {
   background-color: #f2f2f2;
 }
 
- .body {
-   color: #fff;
-   background-color: #000;
- }
+.body {
+  color: #fff;
+  background-color: #000;
+}
 
- .name {
-   padding-right: .5rem;
- }
+.name {
+  padding-right: .5rem;
+}
 
+.email {
+  padding-left: .5rem;
+}
 
-  .email {
-    padding-left: .5rem;
+@media only screen and (min-width: 60em) {
+
+  .body {
+    color: #fff;
   }
+
+}
